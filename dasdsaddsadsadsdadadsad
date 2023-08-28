@@ -1,0 +1,394 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local AbrirMenu = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Creditos = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Darkness = Instance.new("TextLabel")
+local X = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local X_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local FelipeMenu = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local HitBox = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Btools = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Aimbot = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local MusicaACS = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Dex = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local KillAllEbHerik = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local OpeoesAdm = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local HubAcs = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local AbrirCreditos = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+AbrirMenu.Name = "AbrirMenu"
+AbrirMenu.Parent = ScreenGui
+AbrirMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AbrirMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AbrirMenu.BorderSizePixel = 0
+AbrirMenu.Position = UDim2.new(0, 0, 0.433928579, 0)
+AbrirMenu.Size = UDim2.new(0, 68, 0, 50)
+AbrirMenu.Font = Enum.Font.Bangers
+AbrirMenu.Text = "Abrir Menu"
+AbrirMenu.TextColor3 = Color3.fromRGB(0, 0, 0)
+AbrirMenu.TextSize = 14.000
+
+UICorner.Parent = AbrirMenu
+
+Creditos.Name = "Creditos"
+Creditos.Parent = ScreenGui
+Creditos.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Creditos.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Creditos.BorderSizePixel = 0
+Creditos.Position = UDim2.new(0.739688337, 0, 0.251785725, 0)
+Creditos.Size = UDim2.new(0, 134, 0, 211)
+Creditos.Visible = false
+
+UICorner_2.Parent = Creditos
+
+TextLabel.Parent = Creditos
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.000671845628, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 132, 0, 34)
+TextLabel.Font = Enum.Font.Bangers
+TextLabel.Text = "Creditos:"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+Darkness.Name = "Darkness."
+Darkness.Parent = Creditos
+Darkness.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Darkness.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Darkness.BorderSizePixel = 0
+Darkness.Position = UDim2.new(0.000671845628, 0, 0.236966819, 0)
+Darkness.Size = UDim2.new(0, 131, 0, 37)
+Darkness.Font = Enum.Font.LuckiestGuy
+Darkness.Text = "Darkness."
+Darkness.TextColor3 = Color3.fromRGB(0, 0, 0)
+Darkness.TextSize = 14.000
+
+X.Name = "X"
+X.Parent = Creditos
+X.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+X.BorderColor3 = Color3.fromRGB(0, 0, 0)
+X.BorderSizePixel = 0
+X.Position = UDim2.new(0.804316223, 0, 0, 0)
+X.Size = UDim2.new(0, 26, 0, 15)
+X.Font = Enum.Font.FredokaOne
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 0, 0)
+X.TextSize = 14.000
+X.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+
+UICorner_3.Parent = X
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.28139323, 0, 0.18928571, 0)
+Frame.Size = UDim2.new(0, 500, 0, 282)
+Frame.Visible = false
+
+UICorner_4.Parent = Frame
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 500, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Menu V2 // menu de merda apenas para zoar um pouco \"-\""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+X_2.Name = "X"
+X_2.Parent = Frame
+X_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+X_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+X_2.BorderSizePixel = 0
+X_2.Position = UDim2.new(0.932135701, 0, 0, 0)
+X_2.Size = UDim2.new(0, 34, 0, 22)
+X_2.Font = Enum.Font.FredokaOne
+X_2.Text = "X"
+X_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+X_2.TextSize = 14.000
+X_2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+
+UICorner_5.Parent = X_2
+
+Fly.Name = "Fly"
+Fly.Parent = Frame
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0.0359999985, 0, 0.226950347, 0)
+Fly.Size = UDim2.new(0, 133, 0, 28)
+Fly.Font = Enum.Font.FredokaOne
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 14.000
+Fly.MouseButton1Down:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+
+UICorner_6.Parent = Fly
+
+FelipeMenu.Name = "Felipe Menu"
+FelipeMenu.Parent = Frame
+FelipeMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FelipeMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FelipeMenu.BorderSizePixel = 0
+FelipeMenu.Position = UDim2.new(0.0359999985, 0, 0.365248233, 0)
+FelipeMenu.Size = UDim2.new(0, 133, 0, 31)
+FelipeMenu.Font = Enum.Font.FredokaOne
+FelipeMenu.Text = "Felipe Menu"
+FelipeMenu.TextColor3 = Color3.fromRGB(0, 0, 0)
+FelipeMenu.TextSize = 14.000
+FelipeMenu.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/DebugCrazY/FMobfuscated/main/fm.lua'))()
+end)
+
+UICorner_7.Parent = FelipeMenu
+
+HitBox.Name = "HitBox"
+HitBox.Parent = Frame
+HitBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HitBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HitBox.BorderSizePixel = 0
+HitBox.Position = UDim2.new(0.0359999985, 0, 0.517730474, 0)
+HitBox.Size = UDim2.new(0, 133, 0, 31)
+HitBox.Font = Enum.Font.FredokaOne
+HitBox.Text = "HitBox"
+HitBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+HitBox.TextSize = 14.000
+HitBox.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+end)
+
+UICorner_8.Parent = HitBox
+
+Btools.Name = "Btools"
+Btools.Parent = Frame
+Btools.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Btools.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Btools.BorderSizePixel = 0
+Btools.Position = UDim2.new(0.365389168, 0, 0.219858155, 0)
+Btools.Size = UDim2.new(0, 133, 0, 28)
+Btools.Font = Enum.Font.FredokaOne
+Btools.Text = "Btools"
+Btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+Btools.TextSize = 14.000
+Btools.MouseButton1Down:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+end)
+
+UICorner_9.Parent = Btools
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = Frame
+Aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.365389168, 0, 0.361702114, 0)
+Aimbot.Size = UDim2.new(0, 133, 0, 28)
+Aimbot.Font = Enum.Font.FredokaOne
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.TextSize = 14.000
+Aimbot.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main/Resources/Scripts/Main.lua"))()
+end)
+
+UICorner_10.Parent = Aimbot
+
+MusicaACS.Name = "Musica ACS"
+MusicaACS.Parent = Frame
+MusicaACS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MusicaACS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MusicaACS.BorderSizePixel = 0
+MusicaACS.Position = UDim2.new(0.365389168, 0, 0.514184415, 0)
+MusicaACS.Size = UDim2.new(0, 133, 0, 30)
+MusicaACS.Font = Enum.Font.FredokaOne
+MusicaACS.Text = "Musica ACS"
+MusicaACS.TextColor3 = Color3.fromRGB(0, 0, 0)
+MusicaACS.TextSize = 14.000
+MusicaACS.MouseButton1Down:Connect(function()
+
+	IsPlaying = true
+	local ID = "rbxassetid://6896624865"
+	local Name = "xd"
+	local Volume = 100
+	local Pitch = 1
+
+	for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+		if v:IsA("RemoteEvent") and v.Name == "AC6_FE_Sounds" then
+			if IsPlaying == true then
+				v:FireServer("newSound", Name, workspace, ID, Pitch, Volume, true)
+				v:FireServer("playSound", Name)
+			end 
+
+			if IsPlaying == false then
+				v:FireServer("stopSound", Name)
+			end
+		end
+	end
+end)
+
+UICorner_11.Parent = MusicaACS
+
+Dex.Name = "Dex"
+Dex.Parent = Frame
+Dex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dex.BorderSizePixel = 0
+Dex.Position = UDim2.new(0.69599998, 0, 0.226950347, 0)
+Dex.Size = UDim2.new(0, 133, 0, 28)
+Dex.Font = Enum.Font.FredokaOne
+Dex.Text = "Dex"
+Dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dex.TextSize = 14.000
+Dex.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end)
+
+UICorner_12.Parent = Dex
+
+KillAllEbHerik.Name = "Kill All Eb Herik"
+KillAllEbHerik.Parent = Frame
+KillAllEbHerik.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KillAllEbHerik.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KillAllEbHerik.BorderSizePixel = 0
+KillAllEbHerik.Position = UDim2.new(0.695389152, 0, 0.368794322, 0)
+KillAllEbHerik.Size = UDim2.new(0, 133, 0, 30)
+KillAllEbHerik.Font = Enum.Font.FredokaOne
+KillAllEbHerik.Text = " Kill All Eb Herik"
+KillAllEbHerik.TextColor3 = Color3.fromRGB(0, 0, 0)
+KillAllEbHerik.TextSize = 14.000
+KillAllEbHerik.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://scripts.4marcz.com/anti-racista/kill-all.lua'))
+end)
+
+UICorner_13.Parent = KillAllEbHerik
+
+OpeoesAdm.Name = "OpeçoesAdm"
+OpeoesAdm.Parent = Frame
+OpeoesAdm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpeoesAdm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpeoesAdm.BorderSizePixel = 0
+OpeoesAdm.Position = UDim2.new(0.69599998, 0, 0.521276593, 0)
+OpeoesAdm.Size = UDim2.new(0, 133, 0, 30)
+OpeoesAdm.Font = Enum.Font.FredokaOne
+OpeoesAdm.Text = "OpeçoesAdm"
+OpeoesAdm.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpeoesAdm.TextSize = 14.000
+OpeoesAdm.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_14.Parent = OpeoesAdm
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0.741134763, 0)
+TextLabel_3.Size = UDim2.new(0, 500, 0, 72)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Eu sei que o menu é uma merda não precisa dizer"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+HubAcs.Name = "HubAcs"
+HubAcs.Parent = Frame
+HubAcs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HubAcs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HubAcs.BorderSizePixel = 0
+HubAcs.Position = UDim2.new(0.317999989, 0, 0.663120568, 0)
+HubAcs.Size = UDim2.new(0, 182, 0, 36)
+HubAcs.Font = Enum.Font.FredokaOne
+HubAcs.Text = "Hub Acs"
+HubAcs.TextColor3 = Color3.fromRGB(0, 0, 0)
+HubAcs.TextSize = 14.000
+HubAcs.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StoneDev47/KLB-HUB---ACS/main/mainhub", true))()
+end)
+
+UICorner_15.Parent = HubAcs
+
+AbrirCreditos.Name = "AbrirCreditos"
+AbrirCreditos.Parent = ScreenGui
+AbrirCreditos.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AbrirCreditos.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AbrirCreditos.BorderSizePixel = 0
+AbrirCreditos.Position = UDim2.new(0, 0, 0.5625, 0)
+AbrirCreditos.Size = UDim2.new(0, 73, 0, 14)
+AbrirCreditos.Font = Enum.Font.Bangers
+AbrirCreditos.Text = "FODA-SE"
+AbrirCreditos.TextColor3 = Color3.fromRGB(0, 0, 0)
+AbrirCreditos.TextSize = 14.000
+
+UICorner_16.Parent = AbrirCreditos
+
+-- Scripts:
+
+local function QDEAOJX_fake_script() -- AbrirMenu.LocalScript 
+	local script = Instance.new('LocalScript', AbrirMenu)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame.Visible = true
+	end)
+end
+coroutine.wrap(QDEAOJX_fake_script)()
+local function KZPCH_fake_script() -- X.LocalScript 
+	local script = Instance.new('LocalScript', X)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(KZPCH_fake_script)()
+local function FZMX_fake_script() -- X_2.LocalScript 
+	local script = Instance.new('LocalScript', X_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(FZMX_fake_script)()
+local function LGHL_fake_script() -- AbrirCreditos.LocalScript 
+	local script = Instance.new('LocalScript', AbrirCreditos)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Creditos.Visible = true
+	end)
+end
+coroutine.wrap(LGHL_fake_script)()
